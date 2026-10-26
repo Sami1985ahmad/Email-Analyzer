@@ -1,0 +1,35 @@
+From: Google Accounts <no-reply@accounts.google.com>
+To: user@example.com
+Subject: Security alert for your Google Account
+Date: Sun, 26 Oct 2026 14:00:00 +0000
+Message-ID: <abc.123456789.google@mail.gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="===============legit_boundary=="
+Received: from mail-ed1-f65.google.com (mail-ed1-f65.google.com [209.85.208.196])
+    by mx.example.com with ESMTPS id xyz987abc
+    for <user@example.com>; Sun, 26 Oct 2026 14:00:01 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=accounts.google.com; s=20230601;
+    h=to:from:subject:message-id:date:mime-version;
+    bh=abc123hash=; b=sigdata==
+
+--===============legit_boundary==
+Content-Type: text/plain; charset="utf-8"
+
+Hi User,
+
+A new sign-in on Windows was detected.
+Review activity at: https://myaccount.google.com/notifications
+
+Google Security Team
+--===============legit_boundary==
+Content-Type: text/html; charset="utf-8"
+
+<html>
+<body>
+<p>Hi User,</p>
+<p>A new sign-in on Windows was detected.</p>
+<p><a href="https://myaccount.google.com/notifications">Review activity</a></p>
+<p>Google Security Team</p>
+</body>
+</html>
+--===============legit_boundary==--

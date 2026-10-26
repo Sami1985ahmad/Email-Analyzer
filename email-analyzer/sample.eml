@@ -1,0 +1,52 @@
+From: "Security Alert" <security@update-paypal-support.com>
+To: target_user@example.com
+Subject: URGENT: Verify your account immediately
+Date: Sun, 26 Oct 2026 12:00:00 +0000
+Message-ID: <20261026120000.12345@update-paypal-support.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_Part_0_123456789"
+Received: from mail.update-paypal-support.com (mail.update-paypal-support.com [198.51.100.25])
+    by mx.example.com with ESMTP id abc123xyz
+    for <target_user@example.com>; Sun, 26 Oct 2026 12:00:02 +0000
+Received: from [192.168.1.100] (unknown [203.0.113.42])
+    by mail.update-paypal-support.com with ESMTPA id def456uvw
+    for <target_user@example.com>; Sun, 26 Oct 2026 12:00:01 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=update-paypal-support.com; s=default;
+    h=From:To:Subject:Date:Message-ID;
+    bh=w7W7F6eK890=; b=dGVzdF9ka2ltX3NpZ25hdHVyZQ==
+
+------=_Part_0_123456789
+Content-Type: text/plain; charset="utf-8"
+
+Dear customer,
+
+Your account has been temporarily restricted due to suspicious activity.
+Please visit the following link to verify your identity:
+http://malicious-credential-stealer.xyz/login
+
+Thank you,
+Account Security Team
+------=_Part_0_123456789
+Content-Type: text/html; charset="utf-8"
+
+<html>
+<body>
+<p>Dear customer,</p>
+<p>Your account has been temporarily restricted due to suspicious activity.</p>
+<p>Please <a href="http://malicious-credential-stealer.xyz/login">click here to verify your identity</a> immediately.</p>
+<p>Thank you,<br>Account Security Team</p>
+</body>
+</html>
+------=_Part_0_123456789
+Content-Type: text/plain; name="invoice_details.pdf"
+Content-Disposition: attachment; filename="invoice_details.pdf"
+Content-Transfer-Encoding: base64
+
+JVBERi0xLjQKJcTl8uXrp/Og0MTGCjEgMCBvYmoKPDwKL1R5cGUgL0NhdGFsb2cKL1BhZ2Vz
+IDIgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9UeXBlIC9QYWdlcwovS2lkcyBbMyAwIFJd
+Ci9Db3VudCAxCj4+CmVuZG9iagozIDAgb2JqCjw8Ci9UeXBlIC9QYWdlCi9QYXJlbnQgMiAw
+IFIKL1Jlc291cmNlcyA8PAo+PgovTWVkaWFCb3ggWzAgMCA2MTIgNzkyXQo+PgplbmRvYmoK
+eHJlZgowIDQKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE1IDAwMDAwIG4gCjAwMDAw
+MDAwNjggMDAwMDAgbiAKMDAwMDAwMDEyNSAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9TaXplIDQK
+L1Jvb3QgMSAwIFIKPj4Kc3RhcnR4cmVmCjIxNAolJUVPRgo=
+------=_Part_0_123456789--
